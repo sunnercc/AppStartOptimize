@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		40C240F425ECEAB50077E45B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C240F325ECEAB50077E45B /* AppDelegate.m */; };
 		40C240F725ECEAB50077E45B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C240F625ECEAB50077E45B /* SceneDelegate.m */; };
-		40C240FA25ECEAB50077E45B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C240F925ECEAB50077E45B /* ViewController.m */; };
-		40C240FD25ECEAB50077E45B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C240FB25ECEAB50077E45B /* Main.storyboard */; };
 		40C240FF25ECEAB70077E45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C240FE25ECEAB70077E45B /* Assets.xcassets */; };
 		40C2410225ECEAB70077E45B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2410025ECEAB70077E45B /* LaunchScreen.storyboard */; };
 		40C2410525ECEAB70077E45B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2410425ECEAB70077E45B /* main.m */; };
 		40C2410F25ECEAB70077E45B /* AppStartOptimizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2410E25ECEAB70077E45B /* AppStartOptimizeTests.m */; };
 		40C2411A25ECEAB70077E45B /* AppStartOptimizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2411925ECEAB70077E45B /* AppStartOptimizeUITests.m */; };
+		40C2412925ECEAC70077E45B /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2412825ECEAC70077E45B /* AdViewController.m */; };
+		40C2412C25ECF1D60077E45B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2412B25ECF1D60077E45B /* FirstViewController.m */; };
+		40C2412F25ECF6990077E45B /* StartStage.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2412E25ECF6990077E45B /* StartStage.m */; };
+		40C2413825ECFCF10077E45B /* ThreadMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2413725ECFCF10077E45B /* ThreadMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +43,6 @@
 		40C240F325ECEAB50077E45B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		40C240F525ECEAB50077E45B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		40C240F625ECEAB50077E45B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		40C240F825ECEAB50077E45B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40C240F925ECEAB50077E45B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		40C240FC25ECEAB50077E45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40C240FE25ECEAB70077E45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C2410125ECEAB70077E45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40C2410325ECEAB70077E45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +53,14 @@
 		40C2411525ECEAB70077E45B /* AppStartOptimizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStartOptimizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C2411925ECEAB70077E45B /* AppStartOptimizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStartOptimizeUITests.m; sourceTree = "<group>"; };
 		40C2411B25ECEAB70077E45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C2412725ECEAC70077E45B /* AdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		40C2412825ECEAC70077E45B /* AdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		40C2412A25ECF1D60077E45B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		40C2412B25ECF1D60077E45B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		40C2412D25ECF6990077E45B /* StartStage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartStage.h; sourceTree = "<group>"; };
+		40C2412E25ECF6990077E45B /* StartStage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartStage.m; sourceTree = "<group>"; };
+		40C2413625ECFCF10077E45B /* ThreadMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadMonitor.h; sourceTree = "<group>"; };
+		40C2413725ECFCF10077E45B /* ThreadMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +111,16 @@
 		40C240F125ECEAB50077E45B /* AppStartOptimize */ = {
 			isa = PBXGroup;
 			children = (
+				40C2413525ECFCD90077E45B /* ThreadMonitor */,
+				40C2413025ECF7FD0077E45B /* StartStage */,
 				40C240F225ECEAB50077E45B /* AppDelegate.h */,
 				40C240F325ECEAB50077E45B /* AppDelegate.m */,
 				40C240F525ECEAB50077E45B /* SceneDelegate.h */,
 				40C240F625ECEAB50077E45B /* SceneDelegate.m */,
-				40C240F825ECEAB50077E45B /* ViewController.h */,
-				40C240F925ECEAB50077E45B /* ViewController.m */,
-				40C240FB25ECEAB50077E45B /* Main.storyboard */,
+				40C2412725ECEAC70077E45B /* AdViewController.h */,
+				40C2412825ECEAC70077E45B /* AdViewController.m */,
+				40C2412A25ECF1D60077E45B /* FirstViewController.h */,
+				40C2412B25ECF1D60077E45B /* FirstViewController.m */,
 				40C240FE25ECEAB70077E45B /* Assets.xcassets */,
 				40C2410025ECEAB70077E45B /* LaunchScreen.storyboard */,
 				40C2410325ECEAB70077E45B /* Info.plist */,
@@ -135,6 +145,24 @@
 				40C2411B25ECEAB70077E45B /* Info.plist */,
 			);
 			path = AppStartOptimizeUITests;
+			sourceTree = "<group>";
+		};
+		40C2413025ECF7FD0077E45B /* StartStage */ = {
+			isa = PBXGroup;
+			children = (
+				40C2412D25ECF6990077E45B /* StartStage.h */,
+				40C2412E25ECF6990077E45B /* StartStage.m */,
+			);
+			path = StartStage;
+			sourceTree = "<group>";
+		};
+		40C2413525ECFCD90077E45B /* ThreadMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				40C2413625ECFCF10077E45B /* ThreadMonitor.h */,
+				40C2413725ECFCF10077E45B /* ThreadMonitor.m */,
+			);
+			path = ThreadMonitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +270,6 @@
 			files = (
 				40C2410225ECEAB70077E45B /* LaunchScreen.storyboard in Resources */,
 				40C240FF25ECEAB70077E45B /* Assets.xcassets in Resources */,
-				40C240FD25ECEAB50077E45B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C240FA25ECEAB50077E45B /* ViewController.m in Sources */,
 				40C240F425ECEAB50077E45B /* AppDelegate.m in Sources */,
 				40C2410525ECEAB70077E45B /* main.m in Sources */,
+				40C2412C25ECF1D60077E45B /* FirstViewController.m in Sources */,
+				40C2413825ECFCF10077E45B /* ThreadMonitor.m in Sources */,
+				40C2412F25ECF6990077E45B /* StartStage.m in Sources */,
+				40C2412925ECEAC70077E45B /* AdViewController.m in Sources */,
 				40C240F725ECEAB50077E45B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,14 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40C240FB25ECEAB50077E45B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40C240FC25ECEAB50077E45B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40C2410025ECEAB70077E45B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

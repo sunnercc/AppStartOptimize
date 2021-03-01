@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AdViewController.h
 //  AppStartOptimize
 //
 //  Created by sunner on 2021/3/1.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface AdViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
